@@ -16,6 +16,3 @@ ANPR is an advanced version of what I am going to show you in this article. Here
 8. Mask all other parts of the image and show the final image.
 9. Read the text using Tesseract OCR.
 10. Append to csv file.
-
-# Read my article on ANPR : 
-https://cppsecrets.com/users/1001989710897107975054485364103109971051084699111109/Automatic-Vehicle-Number-Plate-Recognition-using-OpenCV-and-Tesseract-OCR-A-Real-World-Python-project.php
