@@ -16,3 +16,27 @@ ANPR is an advanced version of what I am going to show you in this article. Here
 8. Mask all other parts of the image and show the final image.
 9. Read the text using Tesseract OCR.
 10. Append to csv file.
+
+
+# Dependencies
+#### On Linux
+```
+sudo apt-get update
+sudo apt-get install libleptonica-dev tesseract-ocr tesseract-ocr-dev libtesseract-dev python3-pil tesseract-ocr-eng tesseract-ocr-script-latn
+```
+
+#### On Mac
+```
+brew install tesseract
+```
+
+#### On Windows
+download binary from https://github.com/UB-Mannheim/tesseract/wiki. then add pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe' to your script.
+
+Then you should install python package using pip:
+```
+pip install tesseract
+pip install tesseract-ocr
+```
+
+references: https://pypi.org/project/pytesseract/ (INSTALLATION section) and https://tesseract-ocr.github.io/tessdoc/Installation.html
